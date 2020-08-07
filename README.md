@@ -1,4 +1,3 @@
-# My notes
 
 [javascript ](javascript.md) 
 
