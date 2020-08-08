@@ -9,7 +9,8 @@
 [Arrow Functions](https://zendev.com/2018/10/01/javascript-arrow-functions-how-why-when.html)
 
 
-## Basics
+
+### Basics
 
 **variables**
 >  let variable = value
@@ -19,6 +20,7 @@ let user = 'John', age = 25, message = 'Hello';
 ```
 
 **constants**
+
 > const constant = value
 
 ```javascript
@@ -31,7 +33,10 @@ const COLOR_RED = "#F00";
 const COLOR_GREEN = "#0F0";
 
 
-## Datatypes
+
+
+
+### Datatypes
 
 #### Number
 ```javascript
@@ -93,7 +98,9 @@ typeof null // "object"  (2)
 typeof alert // "function"  (3)
 ```
 
-## Comparison
+
+
+### Comparison
 
 | expression | value|
 |--|--|
@@ -114,6 +121,9 @@ typeof alert // "function"  (3)
 |--|--|
 |`0 === false` |  `false` |
 |`null === undefined` | `false`|
+
+
+
 
 
 ### Functions
@@ -156,7 +166,12 @@ There’s a subtle difference between an arrow function `=>` and a regular funct
 -   `.bind(this)` creates a “bound version” of the function.
 -   The arrow `=>` doesn’t create any binding. The function simply doesn’t have `this`. The lookup of `this` is made exactly the same way as a regular variable search: in the outer lexical environment.
 
+
+
+
+
 ### Objects
+
 ```javascript
 let user = new Object(); // "object constructor" syntax
 let user = {};  // "object literal" syntax
@@ -174,58 +189,4 @@ user["likes birds"] = true;
 ```
 
 
-### promises
-```javascript
-const  doCall = () => {
- let  promise = new  Promise(function(resolve, reject) {
-	 setTimeout(() =>  resolve("done!"), 1000);
-    });
-   return  promise
- }
- 
- // resolve runs the first function in .then
- doCall().then(
-    result  =>  log(result), // shows "done!"
-    error  =>  log(error) // doesn't run
-  );
-    
- const  getCall = async () => {
-  let  x = await  doCall()  
-  log(x)
-}
 
-/* other example */
-const add = (a, b) => {
-return new Promise((resolve, reject) => {
-setTimeout(() => {
-if (a < 0 || b < 0) {
-return reject('Numbers must be non-negative')
-}
-resolve(a + b)
-}, 2000)
-})
-}
-
-
-add(1, 2).then((sum) => {
-console.log(sum) // Will print 3
-return add(sum, 4)
-}).then((sum2) => {
-console.log(sum2) // Will print 7
-}).catch((e) => {
-console.log(e)
-})
-
-const doWork = async () => {
-const sum = await add(1, 99)
-const sum2 = await add(sum, 50)
-const sum3 = await add(sum2, 3)
-return sum3
-}
-doWork().then((result) => {
-console.log('result', result)
-}).catch((e) => {
-console.log('e', e)
-})
-   
-```
