@@ -1,8 +1,11 @@
 ﻿# Javascript
 
-Javascript notes
+### Tutorials
+
 [Javascript tutorial](https://javascript.info/)
+
 [Destructuring objects](https://codeburst.io/es6-destructuring-the-complete-guide-7f842d08b98f)
+
 [Arrow Functions](https://zendev.com/2018/10/01/javascript-arrow-functions-how-why-when.html)
 
 
@@ -14,12 +17,14 @@ Javascript notes
 ```javascript
 let user = 'John', age = 25, message = 'Hello';
 ```
+
 **constants**
 > const constant = value
 
 ```javascript
 const myBirthday = '18.04.1982';
 ```
+
 > There is a widespread practice to use constants as aliases for difficult-to-remember values that are known prior to execution.
 ..
 const COLOR_RED = "#F00";
