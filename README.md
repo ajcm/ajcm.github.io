@@ -1,10 +1,6 @@
 [javascript ](javascript.md) 
 
-
-
 [mysql](mysql.md)
-
-
 
 [material ui ](material-ui.md)
 
@@ -16,7 +12,10 @@
 [mysql + docker ](mysql-docker.md)
 
 ### Linux
-[admin](unix/install.md) 
+
+
+
+[admin](unix/admin.md) 
 [install software](unix/install.md) 
 [install software (AWS)](unix/install-aws.md) 
 

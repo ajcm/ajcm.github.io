@@ -1,18 +1,18 @@
-# Linux misc
+# Install AWS Software
 
-### SSH Folder permissions
+### AWS Client2
+	curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+	unzip awscliv2.zip
+	sudo ./aws/install
 
-Permissions:
+### SAM Client 
 
-.ssh directory: **700**
-public key (.pub file): **644** 
-private key (id_rsa): **600** 
-home directory: **755**
+*(Needs brew)*
 
-	chmod 700 .shh
-	chmod 644 .pub
-	chmod 600 id_rsa
+	brew tap aws/tap
+	brew install aws-sam-cli
 	
-	chmod 755 ~
+	sam --version
 
-***eof***
+**eof**
+
