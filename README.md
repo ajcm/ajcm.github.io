@@ -15,7 +15,7 @@
 
 ### Javascript
 [basics ](js/js.md) 
-[promises] ](js/js2.md) 
+[promises](js/js2.md) 
 
 
 ### Other
