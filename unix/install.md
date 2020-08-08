@@ -1,22 +1,29 @@
 # Install Software
 
 ### Misc
-	sudo apt install git curl wget -y
+```
+sudo apt install git curl wget -y
+```
 
 ### NodeJs and NPM
+```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 nvm --version
 	
 nvm install node
 node --version
+```
 
 ### Docker 
+```
 sudo apt install docker.io -y
 docker --version
-
+```
 #### service
+```
 sudo systemctl enable docker
 sudo systemctl start docker
+````
 
 ##### group
 ```
