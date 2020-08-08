@@ -1,42 +1,41 @@
 # Notes for Docker
 
-## Mongo DB
-
-$ docker network create net
-
-$ docker run --network net -d -p 27017-27019:27017-27019 --name mongodb mongo:4.0.16
-
-$ docker exec -it mongodb bash
-
-$ docker run --network net  -d -e ME_CONFIG_MONGODB_SERVER=mongodb -p 8081:8081 mongo-express
-
-## Postgres 
-
-$ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
-
-## Jenkins
 
 
-$ docker run -p 8080:8080   -v /var/run/docker.sock:/var/run/docker.sock  --name jenkins jenkins/jenkins:lts
+### Mongo DB
 
-## Nginx
+`$ docker network create net`
 
-$ docker run -p 8080:80  -v /home/myself/docker/php/src:/var/www/html nginx:alpine
+`$ docker run --network net -d -p 27017-27019:27017-27019 --name mongodb mongo:4.0.16`
 
-$ docker run -p 8080:80  -v /home/ajcm/git/react-material-ui:/usr/share/nginx/html:ro nginx:alpine
+`$ docker exec -it mongodb bash`
 
-## Etc
+`$ docker run --network net  -d -e ME_CONFIG_MONGODB_SERVER=mongodb -p 8081:8081 mongo-express`
 
-**Check volumes:**
 
-$ docker inspect -f '{{ .Mounts }}' containerid
 
-$ docker run -it -v /tmp:/tmp ubuntu:14.04 /bin/bash
+### Postgres 
 
-show host ip
-echo "$(ip -4 addr show docker0 | grep -Po 'inet \K[\d.]+')"
+`$ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgre`s
+
+
+
+### Jenkins
+
+`$ docker run -p 8080:8080   -v /var/run/docker.sock:/var/run/docker.sock  --name jenkins jenkins/jenkins`:lts
+
+
+
+### Nginx
+
+`$ docker run -p 8080:80  -v /home/myself/docker/php/src:/var/www/html nginx:alpine`
+
+`$ docker run -p 8080:80  -v /home/ajcm/git/react-material-ui:/usr/share/nginx/html:ro nginx:alpine`
 
 
 
 
-*eof*
+
+
+
+**eof**
