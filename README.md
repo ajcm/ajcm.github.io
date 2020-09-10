@@ -18,15 +18,11 @@
 
 
 
-
-
-
-
-
-
 ### Other
 
 [mysql](mysql/mysql.md)
+
+[aws amplify](aws/install-amp-aws.md)
 
 [material ui ](materialui/material-ui.md)
 
