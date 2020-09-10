@@ -1,38 +1,34 @@
-### Linux
 
-| Column 1 Header | Column 2 Header | Column 3 Header |
-| --------------- | --------------- | --------------- |
-| Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 |
-| Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 |
-| Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
-
-[admin](unix/admin.md) 
-
-[install software](unix/install.md) 
-
-[install software (AWS)](unix/install-aws.md) 
+| Linux/Unix | Docker | 
+| --------------- | --------------- | 
+| [Linux admin](unix/admin.md) | [docker notes](docker/docker.md)  |
+| [install Node/Docker](unix/install.md)  | [docker comm.](docker/docker.md)  | 
+| [install AWS soft.](unix/install-aws.md)  | [docker + mysql ](docker/docker-mysql.md) | 
 
 
+***
 
-### Docker
+| Javascript | 
+| --------------- | 
+| [basics](js/js.md) | 
+| [promises](js/js-promises.md)  | 
+| [notes](js/js-notes.md) | 
 
-[docker](docker/docker.md) 
-
-[mysql + docker ](mysql-docker.md)
+***
 
 
 
-### Javascript
-[basics ](js/js.md) 
 
-[promises](js/js2.md) 
+
+
+
 
 
 ### Other
 
-[mysql](mysql.md)
+[mysql](mysql/mysql.md)
 
-[material ui ](material-ui.md)
+[material ui ](materialui/material-ui.md)
 
 
 
