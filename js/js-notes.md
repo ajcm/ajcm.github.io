@@ -1,4 +1,4 @@
-﻿
+
 # Javascript
 
 ### Notes
@@ -19,4 +19,13 @@ if (Array.isArray(array) && array.length) {
 }
 
    
+```
+
+
+#### Use Reducers
+```javascript
+['a','b'].reduce(function(result, item, index, array) {
+  result[item] = item; //a, b, c
+  return result;
+}, {})
 ```
