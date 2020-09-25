@@ -6,6 +6,9 @@
 
 ```javascript
 
+/* parse object entries */
+Object.entries(obj)
+
 /* Check Object Empy */
 Object.keys(obj).length === 0 && obj.constructor === Object
 
