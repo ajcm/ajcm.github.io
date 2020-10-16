@@ -31,4 +31,11 @@ if (Array.isArray(array) && array.length) {
   result[item] = item; //a, b, c
   return result;
 }, {})
+
+
+var result = list.reduce((acc,item) => {
+      acc.push(item)
+      return acc
+    },[])
+
 ```
