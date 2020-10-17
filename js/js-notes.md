@@ -31,4 +31,31 @@ if (Array.isArray(array) && array.length) {
   result[item] = item; //a, b, c
   return result;
 }, {})
+
+/* example */
+var result = list.reduce((acc,item) => {
+      acc.push(item)
+      return acc
+    },[])
+
+```
+
+#### For each
+```javascript
+arr.forEach(callback(currentValue[, index[, array]]) {
+  // execute something
+}[, thisArg]);
+
+/* async */
+ratings.forEach(async function(rating) {
+  sum = await sumFunction(sum, rating)
+})
+
+
+/* with arrow */
+someValues.forEach((element, index) => {
+    console.log(`Current index: ${index}`);
+    console.log(element);
+});
+
 ```
