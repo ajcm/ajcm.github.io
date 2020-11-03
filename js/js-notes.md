@@ -59,3 +59,15 @@ someValues.forEach((element, index) => {
 });
 
 ```
+
+#### Array.find
+```javascript
+let result = arr.find(function(item, index, array) {
+  // if true is returned, item is returned and iteration is stopped
+  // for falsy scenario returns undefined
+});
+
+ex:
+let user = users.find(item => item.id == 1);
+
+```
