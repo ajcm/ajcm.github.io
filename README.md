@@ -15,7 +15,14 @@
 | [notes](js/js-notes.md) |  
   
 ***  
+
+| React/Next |  
+| --------------- |  
+| [ReactJs notes](reactjs/reactjs-notes.md) |  
+| [NextJs](nextjs/nextjs.md) |
+
   
+***    
   
   
 ### Other  
@@ -24,8 +31,7 @@
   
 [aws amplify](aws/install-amp-aws.md)  
   
-[material ui ](materialui/material-ui.md)  
-  
-[NextJs ](nextjs/nextjs.md)
+[Material ui ](materialui/material-ui.md)  
+
 
 [Git](git/git.md)
