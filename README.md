@@ -23,13 +23,15 @@
 
   
 ***    
-  
-  
+### AWS
+[AWS amplify](aws/install-amp-aws.md)
+[AWS commands](aws/aws-commands.md)
+[AWS commands s3](aws/aws-commands-s3.md)
 ### Other  
   
 [mysql](mysql/mysql.md)  
   
-[aws amplify](aws/install-amp-aws.md)  
+
   
 [Material ui ](materialui/material-ui.md)  
 
