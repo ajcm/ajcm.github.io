@@ -5,8 +5,11 @@
 **Permissions**
 
 .ssh directory: **700**
+
 public key (.pub file): **644** 
+
 private key (id_rsa): **600** 
+
 home directory: **755**
 
 ```
@@ -22,6 +25,5 @@ chmod 755 ~
 
 ```
 tar  --exclude=**/node_modules/* --exclude=.git  -cvfz backup.tgz folder/
-
 ```
 ---

@@ -1,18 +1,29 @@
 
 ## Install Software
-[Install ssh/apache/mariadb/etc](install/server.md)
+[Ubuntu install ssh/apache/mariadb/etc](install/server.md)
 
-[Install node/java/etc](install/install.md)
+[Ubuntu install node/java/etc](install/install.md)
 
-[Install AWS EC2 lamp/etc](install/ec2-lamp.md)
+[AWS Linux2 install lamp/etc](install/ec2-lamp.md)
+
+**Docker/Kubernetes**
+[Ubuntu install docker/compose](install/ubuntu-docker.md)
+
+[Ubuntu install kubectl/minikube](install/ubuntu-kube.md)
+
+[AWS Linux2 install docker/compose](install/aws-docker.md)
+
+[AWS Linux2 install kubectl/minikube](install/aws-kube.md)
 
 
-
-### Linux/Unix
-[Linux notes](unix/others.md)  
    
 ## Docker
-[Install Docker](unix/install.md)
+
+[Commands](docker/docker.md) 
+
+[Mysql containers ](docker/docker-mysql.md)
+
+## Kubernetes
 
 [Commands](docker/docker.md) 
 
@@ -28,6 +39,9 @@
 
 [Amplify](aws/install-amp-aws.md)
 
+
+### Linux/Unix
+[Linux notes](unix/notes.md)  
 
 ### Javascript
 [basics](js/js.md)
