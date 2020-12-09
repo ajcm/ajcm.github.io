@@ -1,6 +1,9 @@
 
 ## Install Software
+[Install ssh/apache/](unix/server.md)
+
 [Install node/java/etc](unix/install.md)
+
 [misc. notes node/java/](unix/install.md)
 
 
@@ -11,7 +14,9 @@
    
 ## Docker
 [Install Docker](unix/install.md)
+
 [Commands](docker/docker.md) 
+
 [Mysql containers ](docker/docker-mysql.md)
 
 

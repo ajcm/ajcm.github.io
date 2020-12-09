@@ -15,7 +15,30 @@ nvm install node
 node --version
 ```
 
+### Install Java
+[Install Java Runtime Environment (JRE)](https://ubuntu.com/tutorials/install-jre#1-overview)
 
+[How To Install Java with Apt on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04)
+```
+sudo apt install openjdk-8-jre -y
+java -version
+
+## Oracle JDK
+(download)
+sudo mkdir /usr/local/java
+sudo mv jre-8u151-linux-x64.tar.gz /usr/local/java
+cd /usr/local/java
+sudo tar zxvf jre-8u151-linux-x64.tar.gz
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/local/java/jre1.8.0_151/bin/java" 1
+
+java -version
+```
+
+**Manage versions**
+
+```
+sudo update-alternatives --config java
+```
 
 
 ### Homebrew
@@ -29,4 +52,4 @@ test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>
 echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
 ```
 
-**eof**
+---
