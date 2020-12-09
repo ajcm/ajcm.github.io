@@ -1,5 +1,5 @@
-
 ### Mysql
+
 ```
 $docker run -it --network some-network --rm mysql mysql -hsome-mysql -uexample-user -p
 $docker run  --name=test-mysql --env="MYSQL_ROOT_PASSWORD=mypassword" mysql
@@ -32,9 +32,9 @@ $ docker run -it -v mysqldata5.7:/tmp ubuntu:14.04 /bin/bash
 ```
 **Links:**
 
-https://dev.mysql.com/doc/refman/5.7/en/docker-mysql-getting-started.html
+[https://dev.mysql.com/doc/refman/5.7/en/docker-mysql-getting-started.html](https://dev.mysql.com/doc/refman/5.7/en/docker-mysql-getting-started.html)
 
-https://medium.com/better-programming/setting-up-mysql-database-in-a-docker-d6c69a3e9afe
+[https://medium.com/better-programming/setting-up-mysql-database-in-a-docker-d6c69a3e9afe](https://medium.com/better-programming/setting-up-mysql-database-in-a-docker-d6c69a3e9afe)
 
-https://hub.docker.com/r/mysql/mysql-server/tags/
+[https://hub.docker.com/r/mysql/mysql-server/tags/](https://hub.docker.com/r/mysql/mysql-server/tags/)
 
