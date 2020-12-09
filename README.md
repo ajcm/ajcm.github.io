@@ -20,7 +20,9 @@
 
 ## Docker
 
-[Commands](docker/docker.md) 
+[Docker commands](docker/docker-cmd.md)
+
+[Misc. containers](docker/docker-containers.md)  
 
 [Mysql containers ](docker/docker-mysql.md)
 
@@ -58,7 +60,7 @@
 
 ### Linux/Unix
 
-[Linux notes](unix/notes.md)  
+[Linux notes](linux/notes.md)  
 
 ### Other  
   
