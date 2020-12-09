@@ -42,11 +42,11 @@
 
 ### Javascript
 
-[basics](js/js.md)
+[Basics](js/js.md)
 
-[promises](js/js-promises.md)
+[Promises](js/js-promises.md)
   
-[notes](js/js-notes.md)
+[Notes](js/js-notes.md)
 
 
 ### React/Next

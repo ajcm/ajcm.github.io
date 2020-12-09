@@ -1,29 +1,34 @@
-## Install Docker/Compose
+## Install AWS Kubectl/Minikube
 
-### Docker
+### Kubectl
+[Kubectl instructions](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 ```
-sudo apt install docker.io -y
+curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+chmod +x ./kubectl
+sudo mv ./kubectl /usr/bin/kubectl
 
-sudo systemctl start docker
-sudo systemctl enable docker
-
-sudo docker --version
-
-#add user to docker group
-sudo groupadd docker
-sudo usermod -a -G  docker <USER>
-
-# Test
-docker run hello-world
+#test
+kubectl version --client
 ```
 
-### Compose
-[Reference](https://docs.docker.com/compose/install/)
+### Minikube
+[Minikube instructions]((https://minikube.sigs.k8s.io/docs/start/)
 ```
-sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+chmod +x minikube
+sudo mv minikube /usr/bin/
 
-docker-compose -version
+#test
+minikube version
+
+## sudo yum install conntrack -y
+```
+
+**Test Kubernetes**
+
+```
+minikube start --driver=none
+
 ```
 
 ---
