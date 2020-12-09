@@ -1,11 +1,10 @@
 
 ## Install Software
-[Install ssh/apache/](unix/server.md)
+[Install ssh/apache/mariadb/etc](install/server.md)
 
-[Install node/java/etc](unix/install.md)
+[Install node/java/etc](install/install.md)
 
-[misc. notes node/java/](unix/install.md)
-
+[Install AWS EC2 lamp/etc](install/ec2-lamp.md)
 
 
 
