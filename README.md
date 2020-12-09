@@ -1,20 +1,18 @@
 
-## Docker
-
-[Install Node/Docker](unix/install.md)
-
-[Commands](docker/docker.md) 
-
-[Mysql containers ](docker/docker-mysql.md)
+## Install Software
+[Install node/java/etc](unix/install.md)
+[misc. notes node/java/](unix/install.md)
 
 
-### Kubernetes
 
 
 ### Linux/Unix
-[Linux notes](unix/admin.md)  
+[Linux notes](unix/others.md)  
    
-
+## Docker
+[Install Docker](unix/install.md)
+[Commands](docker/docker.md) 
+[Mysql containers ](docker/docker-mysql.md)
 
 
 ### AWS
