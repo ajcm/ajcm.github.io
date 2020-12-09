@@ -11,7 +11,7 @@
   
 ### Commands  
   
-#### Buckets  
+**Buckets**  
   
 [s3api](https://docs.aws.amazon.com/cli/latest/reference/s3api/)  
 aws s3api list-buckets  

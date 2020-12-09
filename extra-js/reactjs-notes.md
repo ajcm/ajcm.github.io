@@ -1,7 +1,20 @@
+# React
 
-# React Js
 
-### Notes
+### Install MaterialUi
+
+$npx create-react-app my-app
+
+$npm install react-router-dom  @material-ui/core  @material-ui/icons
+
+**Roboto fonts**
+$ npm install typeface-roboto --save
+
+''' 
+"import 'typeface-roboto';"
+'''
+
+
 
 #### Use Memo
 

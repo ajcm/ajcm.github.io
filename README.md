@@ -13,12 +13,11 @@
 
 [Ubuntu install kubectl/minikube](install-extra/ubuntu-kube.md)
 
-[AWS Linux2 install docker/compose](install/aws-docker.md)
+[AWS Linux2 install docker/compose](install-extra/aws-docker.md)
 
-[AWS Linux2 install kubectl/minikube](install/aws-kube.md)
+[AWS Linux2 install kubectl/minikube](install-extra/aws-kube.md)
 
 
-   
 ## Docker
 
 [Commands](docker/docker.md) 
@@ -27,25 +26,22 @@
 
 ## Kubernetes
 
-[Commands](docker/docker.md) 
-
-[Mysql containers ](docker/docker-mysql.md)
+--
 
 
 ### AWS
-[Install Ec2 soft.](aws/install-aws.md)
-
-[AWS commands](aws/aws-commands.md)
 
 [AWS commands s3](aws/aws-commands-s3.md)
 
-[Amplify](aws/install-amp-aws.md)
+[AWS sam/etc](aws/aws-commands.md)
 
+[Install Client2/SAM/etc](aws/install-aws.md)
 
-### Linux/Unix
-[Linux notes](unix/notes.md)  
+[Install Amplify](aws/install-amp-aws.md)
+
 
 ### Javascript
+
 [basics](js/js.md)
 
 [promises](js/js-promises.md)
@@ -54,14 +50,18 @@
 
 
 ### React/Next
-[ReactJs notes](reactjs/reactjs-notes.md)
 
-[NextJs](nextjs/nextjs.md) 
+[ReactJs notes](extra-js/reactjs-notes.md)
 
-[Material ui ](materialui/material-ui.md)  
+[NextJs](extra-js/nextjs.md) 
+
+
+### Linux/Unix
+
+[Linux notes](unix/notes.md)  
 
 ### Other  
   
-[mysql](mysql/mysql.md)  
+[Mysql](misc/mysql.md)  
   
-[Git](git/git.md)
+[Git](misc/git.md)

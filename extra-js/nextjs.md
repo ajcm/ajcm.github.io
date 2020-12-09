@@ -9,10 +9,4 @@ curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --s
 
 cd nextjs
 ```
-
-[Github template](https://github.com/ajcm/nextjs-materialui-template) 
-
-
-
-
-***eof***
+---
