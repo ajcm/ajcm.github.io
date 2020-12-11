@@ -12,7 +12,8 @@ $ npm install typeface-roboto --save
 ```
 
 ```javascript
-	import 'typeface-roboto';
+//import dependency
+import 'typeface-roboto';
 
 ````
 
