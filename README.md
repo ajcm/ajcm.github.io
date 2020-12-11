@@ -1,26 +1,22 @@
-
 ## Install Software
-[Ubuntu install ssh/apache/mariadb/etc](install/ubuntu-lamp.md)
 
-[Ubuntu install node/java/etc](install/ubuntu-nodejs.md)
+[Install ssh/apache/mariadb/etc (Ubuntu)](install/ubuntu-lamp.md)
 
-[AWS Linux2 install lamp/etc](install/aws-lamp.md)
+[Install node/java/etc (Ubuntu)](install/ubuntu-nodejs.md)
+
+[Install Lamp/etc (AWS Linux2)](install/aws-lamp.md)
 
 
 **Docker/Kubernetes**
 
-[Ubuntu install docker/compose](install-extra/ubuntu-docker.md)
+[Install docker/compose](install-extra/install-docker.md)
 
-[Ubuntu install kubectl/minikube](install-extra/ubuntu-kube.md)
-
-[AWS Linux2 install docker/compose](install-extra/aws-docker.md)
-
-[AWS Linux2 install kubectl/minikube](install-extra/aws-kube.md)
+[Install kubectl/minikube](install-extra/install-kube.md)
 
 
 ## Docker
 
-[Docker commands](docker/docker-cmd.md)
+[Common commands](docker/docker-cmd.md)
 
 [Misc. containers](docker/docker-containers.md)  
 
@@ -28,7 +24,7 @@
 
 ## Kubernetes
 
---
+[Common commands](k82/common-cmd.md)
 
 
 ### AWS

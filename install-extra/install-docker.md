@@ -1,6 +1,6 @@
 ## Install Docker/Compose
 
-### Docker
+### Docker (Ubuntu)
 ```
 sudo apt install docker.io -y
 
@@ -15,6 +15,22 @@ sudo usermod -a -G  docker <USER>
 
 # Test
 docker run hello-world
+```
+
+### Docker (AWS Linux2)
+```
+#Install docker
+sudo yum update -y
+sudo yum install -y docker
+sudo usermod -aG docker ec2-user
+docker --version
+
+sudo systemctl start docker
+sudo systemctl enable docker
+
+#Test
+docker run hello-world
+
 ```
 
 ### Compose

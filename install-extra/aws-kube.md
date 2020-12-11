@@ -22,13 +22,7 @@ sudo mv minikube /usr/bin/
 minikube version
 
 ## sudo yum install conntrack -y
+
+## run minikube
 ```
 
-**Test Kubernetes**
-
-```
-minikube start --driver=none
-
-```
-
----
