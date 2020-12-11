@@ -2,17 +2,19 @@
 
 
 ### Install MaterialUi
-
+```
 $npx create-react-app my-app
 
 $npm install react-router-dom  @material-ui/core  @material-ui/icons
 
-**Roboto fonts**
+# Roboto fonts
 $ npm install typeface-roboto --save
+```
 
-''' 
-"import 'typeface-roboto';"
-'''
+```javascript
+	import 'typeface-roboto';
+
+````
 
 
 
@@ -44,6 +46,5 @@ $ npm install typeface-roboto --save
     const result = await myExpensiveResultObject;
     setClients(result);
   }
-
-   
+  
 ```

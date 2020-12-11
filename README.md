@@ -4,7 +4,7 @@
 
 [Install node/java/etc (Ubuntu)](install/ubuntu-nodejs.md)
 
-[Install Lamp/etc (AWS Linux2)](install/aws-lamp.md)
+[Install lamp/java/etc (AWS Linux2)](install/aws-lamp.md)
 
 
 **Docker/Kubernetes**
@@ -24,7 +24,7 @@
 
 ## Kubernetes
 
-[Common commands](k82/common-cmd.md)
+[Common commands](k8s/common-cmd.md)
 
 
 ### AWS
@@ -47,11 +47,11 @@
 [Notes](js/js-notes.md)
 
 
-### React/Next
+### React/Next/etc
 
 [ReactJs notes](extra-js/reactjs-notes.md)
 
-[NextJs](extra-js/nextjs.md) 
+[NextJs notes](extra-js/nextjs.md) 
 
 
 ### Linux/Unix
