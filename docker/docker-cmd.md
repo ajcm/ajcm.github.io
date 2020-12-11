@@ -8,7 +8,7 @@ Image name format
 ```
 
 Create image:
-````
+```
 docker build -t <image> .
 ```
 
@@ -31,7 +31,6 @@ docker image list
 ```
 ### Containers
 Docker run creates a new container from a image and executes it.
-
 ```
 docker run <options> <image> --name <container name>
   
