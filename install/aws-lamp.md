@@ -1,35 +1,24 @@
 ## Install AWS Ec2
 
-### Misc
+[Tutorial: Install a LAMP web server on Amazon Linux 2 ](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2.html)
+
+### document root settings
+
 ```
-sudo yum update -y
-sudo yum install git curl wget -y
+sudo usermod -a -G apache ec2-user
+
+sudo chown -R ec2-user:apache /var/www
+sudo chmod 2775 /var/www && find /var/www -type d -exec sudo chmod 2775 {} \;
+find /var/www -type f -exec sudo chmod 0664 {} \;
 
 ```
 
-### Lamp
-[AWS Installation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2.html)
 ```
-sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2 -y
-sudo yum install -y httpd mariadb-server -y
-
-sudo systemctl start httpd
-sudo systemctl enable httpd
-sudo systemctl is-enabled httpd
+## Configure public_html
+enable mod usedir
+mkdir public_html
+chmod 711 ~
+chmod 755 ~/public_html
 ```
 
-### NodeJs
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-nvm install node
-node -e "console.log('Running Node.js ' + process.version)"
-```
-
-### Install Java (Amazon Correcto)
-[AWS Correcto](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/amazon-linux-install.html)
-```
-sudo yum install java-11-amazon-corretto -y
-
-sudo alternatives --config java
-```
 ---
