@@ -1,5 +1,35 @@
 ## Docker containers
 
+### Apache
+https://hub.docker.com/_/httpd
+versions: httpd:2.4-alpine
+
+```
+docker run -p 8080:80 httpd:2.4-alpine
+docker run -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4-alpine
+```
+
+### Nginx
+https://hub.docker.com/_/nginx
+version: 1.19-alpine, alpine
+
+```
+docker run -p8080:80  -v "$PWD":/usr/share/nginx/html:ro -d nginx:1.19-alpine
+```
+
+### PHP/Apache
+https://hub.docker.com/_/php
+version: php:7.4-apache, php:7.2-apache
+
+```
+docker run   -p 8080:80 -v "$PWD":/var/www/html php:7.4-apache
+```
+notes
+https://stackoverflow.com/questions/29905953/how-to-correctly-link-php-fpm-and-nginx-docker-containers
+
+
+## OLD
+
 ### Mongo DB
 ```
 $ docker network create net

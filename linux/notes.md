@@ -10,8 +10,15 @@ chmod 644 .pub
 
 # ~/.ssh
 chmod 700 .shh
+
 # home	
 chmod 755 ~
+
+# remove or change password from key
+ ssh-keygen -p
+ 
+ ssh-keygen -p [-P old_passphrase] [-N new_passphrase] [-f keyfile]
+ 
 ```
 	
 	
