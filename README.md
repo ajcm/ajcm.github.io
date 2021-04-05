@@ -18,9 +18,12 @@
 
 [Common commands](docker/docker-cmd.md)
 
-[Misc. containers](docker/docker-containers.md)  
+[Misc. containers](docker/docker-containers.md)
 
 [Mysql containers ](docker/docker-mysql.md)
+
+[Custom images ](docker/docker-images.md)
+
 
 ## Kubernetes
 
