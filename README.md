@@ -9,28 +9,6 @@
 [Install lamp/java/etc (AWS Linux2)](install/aws-lamp.md)
 
 
-**Docker/Kubernetes**
-
-[Install docker/compose](install-extra/install-docker.md)
-
-[Install kubectl/minikube](install-extra/install-kube.md)
-
-
-## Docker
-
-[Common commands](docker/docker-cmd.md)
-
-[Misc. containers](docker/docker-containers.md)
-
-[Mysql containers ](docker/docker-mysql.md)
-
-[Custom images ](docker/docker-images.md)
-
-
-## Kubernetes
-
-[Common commands](k8s/common-cmd.md)
-
 
 ### AWS
 
@@ -63,8 +41,3 @@
 
 [Linux notes](linux/notes.md)  
 
-### Other  
-  
-[Mysql](misc/mysql.md)  
-  
-[Git](misc/git.md)
